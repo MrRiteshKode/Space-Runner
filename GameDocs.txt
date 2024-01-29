@@ -1,0 +1,14 @@
+# For keybords
+SPACE - for begin the game
+KEY_P - for pause the game
+KEY_R - for resume the game
+
+# For mouse
+LEFT BUTTON - to move spaceship left side
+RIGHT BUTTON - to move spaceship right side
+
+# for convert game into exe
+pyinstaller -w main.py
+
+# for icon of exe (not work)
+pyinstaller --onefile --icon=media/spaceship.ico.ico main.py
